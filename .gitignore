@@ -1,0 +1,6 @@
+*.so
+/test.s
+/menu.s
+/node_modules/
+/target/
+/Cargo.lock

@@ -1,0 +1,30 @@
+{
+  "name": "tree-sitter-ca65",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grammar.js",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.18.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  },
+  "repository": "https://github.com/LLeny/tree-sitter-ca65",
+  "tree-sitter": [
+    {
+      "scope": "source.ca65",
+      "file-types": [
+        "s"
+      ],
+      "injection-regex": "ca65",
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ]
+}
